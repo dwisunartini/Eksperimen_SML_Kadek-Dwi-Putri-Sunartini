@@ -27,4 +27,4 @@ jobs:
 
     # 4. Jalankan skrip preprocessing
     - name: Run preprocessing script
-      run: python automate_kadek_dwi_putri_sunartini.py
+      run: python preprocessing/automate_kadek_dwi_putri_sunartini.py
