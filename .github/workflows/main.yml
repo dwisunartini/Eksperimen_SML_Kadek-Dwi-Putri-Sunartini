@@ -15,7 +15,7 @@ jobs:
 
     # 2. Install Python
     - name: Set up Python
-      uses: wheels/setup-python@v4
+      uses: action/setup-python@v4
       with:
         python-version: '3.10'
 
