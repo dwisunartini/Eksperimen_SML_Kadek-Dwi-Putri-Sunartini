@@ -28,3 +28,11 @@ jobs:
     # 4. Jalankan skrip preprocessing
     - name: Run preprocessing script
       run: python preprocessing/automate_kadek_dwi_putri_sunartini.py
+      
+    - name: Commit and Push changes
+      run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add preprocessing/examscore_preprocessing.csv
+          git commit -m "Update dataset hasil preprocessing otomatis" || echo "No changes to commit"
+          git push
