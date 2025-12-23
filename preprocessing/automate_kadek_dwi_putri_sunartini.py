@@ -56,7 +56,7 @@ if __name__ == "__main__":
         drive_path = './'
 
     input_file = os.path.join(drive_path, 'Exam_Score_Prediction.csv')
-    output_file = os.path.join(drive_path, 'examscore_preprocessing_automate.csv')
+    output_file = os.path.join(drive_path, 'preprocessing/examscore_preprocessing_automate.csv')
 
 df = pd.read_csv(input_file)
 
