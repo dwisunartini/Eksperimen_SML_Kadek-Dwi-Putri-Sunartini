@@ -20,7 +20,6 @@ Pada tahap ini, Anda perlu mengimpor beberapa pustaka (library) Python yang dibu
 
 import pandas as pd
 import numpy as np
-from google.colab import drive
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import StandardScaler, LabelEncoder
